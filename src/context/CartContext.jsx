@@ -35,12 +35,15 @@ export const CartProvider = ({ children }) => {
   }, [cartItems, user])
 
   const addToCart = (product) => {
+    // Asegurarse de que no se incluya la propiedad 'imagen' si existe
+    const { imagen, ...productWithoutImage } = product
+
     setCartItems((prev) => {
       const existingItem = prev.find((item) => item.id === product.id)
       if (existingItem) {
         return prev.map((item) => (item.id === product.id ? { ...item, cantidad: item.cantidad + 1 } : item))
       }
-      return [...prev, { ...product, cantidad: 1 }]
+      return [...prev, { ...productWithoutImage, cantidad: 1 }]
     })
   }
 
