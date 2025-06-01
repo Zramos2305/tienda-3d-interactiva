@@ -2,13 +2,14 @@
 
 Una tienda virtual moderna con visualización 3D de productos, desarrollada con React + Vite.
 
-## Autores
-- [Tu Nombre]
-- [Nombre del compañero si aplica]
+## Hecho por 
+- ZAYRA RAMOS 
+- SEBASTIAN ECHEVERRI 
 
-## Características
+## Enlaces del Proyecto
 
-### ✅ Funcionalidades Implementadas
+- **Demo en Vivo**: [https://tienda-3d-interactiva.vercel.app](https://tu-proyecto.vercel.app)
+- **Repositorio GitHub**: [https://github.com/TU_USUARIO/tienda-3d-interactiva](https://github.com/TU_USUARIO/tienda-3d-interactiva)
 
 1. **Autenticación Local (10%)**
    - Registro e inicio de sesión con localStorage
@@ -66,68 +67,6 @@ Una tienda virtual moderna con visualización 3D de productos, desarrollada con 
 - **Context API** - Gestión de estado global
 - **localStorage** - Persistencia de datos
 
-## Instalación y Ejecución
-
-### Prerrequisitos
-- Node.js (versión 16 o superior)
-- npm o yarn
-
-### Pasos para ejecutar
-
-1. **Clonar el repositorio**
-   \`\`\`bash
-   git clone [URL_DEL_REPOSITORIO]
-   cd tienda-3d-interactiva
-   \`\`\`
-
-2. **Instalar dependencias**
-   \`\`\`bash
-   npm install
-   \`\`\`
-
-3. **Ejecutar en modo desarrollo**
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-
-4. **Abrir en el navegador**
-   - La aplicación se abrirá automáticamente en `http://localhost:3000`
-
-### Comandos disponibles
-
-- `npm run dev` - Ejecuta la aplicación en modo desarrollo
-- `npm run build` - Construye la aplicación para producción
-- `npm run preview` - Previsualiza la construcción de producción
-- `npm run lint` - Ejecuta el linter para verificar el código
-
-## Estructura del Proyecto
-
-\`\`\`
-src/
-├── components/          # Componentes reutilizables
-│   ├── Auth/           # Componentes de autenticación
-│   ├── Navbar.jsx      # Barra de navegación
-│   └── ProductCard.jsx # Tarjeta de producto
-├── context/            # Contextos de React
-│   ├── AuthContext.jsx
-│   ├── CartContext.jsx
-│   └── FavoritesContext.jsx
-├── data/               # Datos de la aplicación
-│   └── data.js         # Productos disponibles
-├── pages/              # Páginas principales
-│   ├── Home.jsx
-│   ├── ProductDetailPage.jsx
-│   ├── CartPage.jsx
-│   ├── CheckoutPage.jsx
-│   ├── FavoritesPage.jsx
-│   └── HistoryPage.jsx
-├── App.jsx             # Componente principal
-├── main.jsx           # Punto de entrada
-└── index.css          # Estilos globales
-\`\`\`
-
-## Funcionalidades Detalladas
-
 ### Autenticación
 - Sistema completo de registro e inicio de sesión
 - Validación de formularios
@@ -164,28 +103,9 @@ src/
 - Organización cronológica
 - Detalles de productos y envío
 - Búsqueda y filtrado
-
-## Demo en Línea
-
-🚀 **[Ver Demo en Vercel](https://tu-proyecto.vercel.app)**
-
 ## Notas Técnicas
-
 - La aplicación usa localStorage para simular una base de datos
 - Los modelos 3D se cargan desde la carpeta `/public/model/`
 - El diseño es completamente responsivo
 - Se incluyen animaciones y transiciones suaves
 - Optimizado para rendimiento y experiencia de usuario
-
-## Próximas Mejoras
-
-- [ ] Integración con base de datos real
-- [ ] Sistema de pagos
-- [ ] Notificaciones push
-- [ ] Chat de soporte
-- [ ] Búsqueda avanzada de productos
-- [ ] Sistema de reseñas y calificaciones
-
----
-
-**Desarrollado con ❤️ para el examen final**
