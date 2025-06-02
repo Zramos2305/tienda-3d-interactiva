@@ -60,6 +60,7 @@ const ProductCard = ({ product }) => {
               auto-rotate
               camera-controls
               disable-zoom
+              progress-bar="hide"
               style={{
                 width: "100%",
                 height: "100%",

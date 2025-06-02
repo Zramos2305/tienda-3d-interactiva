@@ -29,7 +29,9 @@ const ProductDetailPage = () => {
     document.head.appendChild(script)
 
     return () => {
-      document.head.removeChild(script)
+      if (document.head.contains(script)) {
+        document.head.removeChild(script)
+      }
     }
   }, [])
 
@@ -106,6 +108,7 @@ const ProductDetailPage = () => {
                 alt={product.nombre}
                 auto-rotate
                 camera-controls
+                progress-bar="hide"
                 style={{ width: "100%", height: "100%" }}
                 loading="lazy"
               >

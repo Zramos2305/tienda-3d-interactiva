@@ -9,6 +9,15 @@ model-viewer {
   background-color: #f3f4f6;
 }
 
+/* Ocultar completamente la barra de progreso */
+model-viewer::part(default-progress-bar) {
+  display: none !important;
+}
+
+model-viewer .progress-bar {
+  display: none !important;
+}
+
 model-viewer .progress-bar {
   display: block;
   width: 33%;
