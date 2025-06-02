@@ -8,7 +8,7 @@ Una tienda virtual moderna con visualización 3D de productos, desarrollada con 
 
 ## Enlaces del Proyecto
 
-- **Demo en Vivo**: [https://tienda-3d-interactiva-eight.vercel.app/](https://tu-proyecto.vercel.app)
+- **Demo en Vivo**: [https://tienda-3d-interactiva-git-main-zramos2305s-projects.vercel.app](https://tu-proyecto.vercel.app)
 - **Repositorio GitHub**: [https://github.com/Zramos2305/tienda-3d-interactiva](https://github.com/TU_USUARIO/tienda-3d-interactiva)
 
 1. **Autenticación Local (10%)**
